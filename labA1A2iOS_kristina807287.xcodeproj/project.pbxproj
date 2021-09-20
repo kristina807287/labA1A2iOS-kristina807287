@@ -14,6 +14,8 @@
 		53104BA826F824F30090486F /* labA1A2iOS_kristina807287.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53104BA626F824F30090486F /* labA1A2iOS_kristina807287.xcdatamodeld */; };
 		53104BAA26F824F30090486F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53104BA926F824F30090486F /* Assets.xcassets */; };
 		53104BAD26F824F30090486F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53104BAB26F824F30090486F /* LaunchScreen.storyboard */; };
+		53104BBB26F8406A0090486F /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53104BB926F8406A0090486F /* Products+CoreDataClass.swift */; };
+		53104BBC26F8406A0090486F /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53104BBA26F8406A0090486F /* Products+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		53104BA926F824F30090486F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53104BAC26F824F30090486F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53104BAE26F824F30090486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53104BB926F8406A0090486F /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53104BBA26F8406A0090486F /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		53104B9126F824F30090486F = {
 			isa = PBXGroup;
 			children = (
+				53104BB926F8406A0090486F /* Products+CoreDataClass.swift */,
+				53104BBA26F8406A0090486F /* Products+CoreDataProperties.swift */,
 				53104B9C26F824F30090486F /* labA1A2iOS_kristina807287 */,
 				53104B9B26F824F30090486F /* Products */,
 			);
@@ -58,6 +64,7 @@
 		53104B9C26F824F30090486F /* labA1A2iOS_kristina807287 */ = {
 			isa = PBXGroup;
 			children = (
+				53104BB826F83A9F0090486F /* Model */,
 				53104B9D26F824F30090486F /* AppDelegate.swift */,
 				53104B9F26F824F30090486F /* SceneDelegate.swift */,
 				53104BA126F824F30090486F /* ViewController.swift */,
@@ -68,6 +75,13 @@
 				53104BA626F824F30090486F /* labA1A2iOS_kristina807287.xcdatamodeld */,
 			);
 			path = labA1A2iOS_kristina807287;
+			sourceTree = "<group>";
+		};
+		53104BB826F83A9F0090486F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53104BA226F824F30090486F /* ViewController.swift in Sources */,
+				53104BBC26F8406A0090486F /* Products+CoreDataProperties.swift in Sources */,
 				53104BA826F824F30090486F /* labA1A2iOS_kristina807287.xcdatamodeld in Sources */,
+				53104BBB26F8406A0090486F /* Products+CoreDataClass.swift in Sources */,
 				53104B9E26F824F30090486F /* AppDelegate.swift in Sources */,
 				53104BA026F824F30090486F /* SceneDelegate.swift in Sources */,
 			);
@@ -290,7 +306,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = labA1A2iOS_kristina807287/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kristinaginga.labA1A2iOS-kristina807287";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +326,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = labA1A2iOS_kristina807287/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kristinaginga.labA1A2iOS-kristina807287";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
